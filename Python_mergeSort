@@ -1,0 +1,17 @@
+merge_sort(arr, l, r):
+    mid=(l+r)/2
+    # if arr[mid]:
+    #     return 
+    # mid=
+    return merge_sort(arr,l,mid)+merge_sort(arr,mid,r)
+main():
+    n=0
+    print("Enter array")
+    arr=arr.array()
+    u_i='y'
+    while u_i=='y':
+        arr.append(input())
+        n+=1
+        print("More elements?: y/n")
+            u_i=input()
+    merge_sort(arr,0,n-1)
